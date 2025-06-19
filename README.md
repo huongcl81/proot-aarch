@@ -1,4 +1,3 @@
-
 # 🐧 proot-aarch
 
 > Chạy Ubuntu Bionic (18.04) user-space trên ARM64 hoặc x86_64 với PRoot, không cần root.
@@ -28,6 +27,7 @@ tar -xzf bionic-base-arm64.tar.gz -C ubuntu-rootfs
 
 # Vào Ubuntu
 ./proot-v5.3.0-aarch64-static -S ubuntu-rootfs /bin/bash
+```
 
 ### 2. Setup cho x86_64
 ```bash
@@ -41,3 +41,4 @@ tar -xzf bionic-base-amd64.tar.gz -C ubuntu-rootfs
 
 # Vào Ubuntu
 ./proot-v5.3.0-x86_64-static -S ubuntu-rootfs /bin/bash
+```
